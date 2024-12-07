@@ -1,0 +1,1 @@
+-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\KeilARM\ARM\INC" -I "C:\KeilARM\ARM\INC\Philips" -o "uart_int.o" --omf_browse "uart_int.crf" --depend "uart_int.d" "UART_INT.c"

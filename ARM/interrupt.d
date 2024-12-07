@@ -1,0 +1,10 @@
+.\interrupt.o: interrupt.c
+.\interrupt.o: C:\Keil\ARM\Inc\Philips\LPC21xx.h
+.\interrupt.o: types.h
+.\interrupt.o: interrupt_defines.h
+.\interrupt.o: lcd_defines.h
+.\interrupt.o: lcd.h
+.\interrupt.o: delay.h
+.\interrupt.o: types.h
+.\interrupt.o: interrupt.h
+.\interrupt.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h

@@ -1,0 +1,26 @@
+*** Creating Trace Output File 'UART_INTERRUPT.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"uart.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"kpm2.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"testmain.o"'
+### List of Objects: adding '"interrupt.o"'
+### List of Objects: adding '"uart1.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "uart.o" "lcd.o" "kpm2.o" "delay.o" "testmain.o" "interrupt.o" "uart1.o" --strict --scatter "UART_INTERRUPT.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\UART_INTERRUPT.map" -o "UART_INTERRUPT.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'UART_INTERRUPT.axf'
+### ADS-LD Command File: 'UART_INTERRUPT.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'UART_INTERRUPT.lnp', Handle=0x0000025C
+### Writing '.lnp' file
+### ADS-LD Command file 'UART_INTERRUPT.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

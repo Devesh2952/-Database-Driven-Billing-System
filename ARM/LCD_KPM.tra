@@ -1,0 +1,26 @@
+*** Creating Trace Output File 'LCD_KPM.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"uart.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"kpm2.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"testmain.o"'
+### List of Objects: adding '"interrupt.o"'
+### List of Objects: adding '"uart1.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "uart.o" "lcd.o" "kpm2.o" "delay.o" "testmain.o" "interrupt.o" "uart1.o" --strict --scatter "LCD_KPM.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LCD_KPM.map" -o "LCD_KPM.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'LCD_KPM.axf'
+### ADS-LD Command File: 'LCD_KPM.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'LCD_KPM.lnp', Handle=0x00000344
+### Writing '.lnp' file
+### ADS-LD Command file 'LCD_KPM.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

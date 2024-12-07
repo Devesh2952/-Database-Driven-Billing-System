@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "uart.o" "lcd.o" "kpm2.o" "delay.o" "testmain.o" "interrupt.o" "uart1.o" --strict --scatter "UART_INTERRUPT.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\UART_INTERRUPT.map" -o "UART_INTERRUPT.axf"
